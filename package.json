@@ -2,9 +2,10 @@
   "name": "simple-web-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "json-server -p 8080 -w db.json",
+    "start": "node server.js",
+    "local": "json-server -p 8080 -r  -w db.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
